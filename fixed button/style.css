@@ -1,0 +1,166 @@
+/* Sosyal Medya Stilleri*/
+.main2 {
+    display: none;
+    position:fixed;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1; /* Butonun altında kalacak şekilde daha düşük bir z-indeks değeri */
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: fixed;
+    flex-direction: row;
+    gap: 0.5em;
+    margin-bottom: 3px;
+  }
+  
+  .down {
+    display: fixed;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 2.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .facebook {
+    margin-top: 2.8em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .whatsapp {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    fill: #00ff00;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .gmail {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #f14336;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #1877f2;
+  }
+  
+  .card2:hover .facebook {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #00ff00;
+  }
+  
+  .card3:hover .whatsapp {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #FF0004;
+  }
+  
+  .card4:hover .gmail {
+    fill: white;
+  }
+  .fixed-button {
+    position: fixed;
+    background: red;
+    color: #FFF;
+    right: 27px;
+    bottom: 90px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all .1s ease;
+    cursor: pointer;
+    z-index: 2;
+      }
+      @media screen and(max-width:767px) {
+        .main2 {
+          display: none;
+          position:fixed;
+          top: 0%;
+          right: 20px;
+          transform: translate(0, -50%);
+          padding: 20px;
+          border-radius: 10px;
+          z-index: 1; /* Butonun altında kalacak şekilde daha düşük bir z-indeks değeri */
+          gap: 0.5em;
+        }
+        
+      }
